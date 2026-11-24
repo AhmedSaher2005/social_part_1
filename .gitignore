@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Firebase Service Account
+*firebase-adminsdk*.json
+*service-account*.json
+
+# Private keys
+*.pem
+*.key
+social-app-4e25e-firebase-adminsdk-fbsvc-0551546f91.json
